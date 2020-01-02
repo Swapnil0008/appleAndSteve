@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Steve Jobs</title>
+
+    <script>
+
+    function slideOver(a,b,c){
+        a.style="margin-left: -5%; transition: 1.5s;"
+        b.style="margin-left: 65%; transition: 1s;"
+        c.style="margin-left: 30%; transition: 1s;"
+
+    }
+
+    function slideBack(a,b,c){
+      a.style="margin-left: 2%;transition: 1.5s;"
+      b.style="margin: -380px 15% 0px 6%;transition: 1s;"
+      c.style="margin-left: 5%;transition: 1s;"
+
+    }
+
+    </script>
+
+  </head>
+
+  <body>
+
+    <header>
+      <h6>Apple : A revolution</h6>
+    </header>
+
+    <nav>
+      <li>Birth</li>
+      <li>Decline</li>
+      <li>Comeback</li>
+    </nav>
+
+    <section style="margin-bottom: 2000px;">
+
+      <section class="quote">
+
+          <div id="quoteBack">
+            <h4>It’s the cult. It’s what kept the damn thing afloat during some of the most incredibly
+                bad business decisions I’ve seen anywhere.<br> – Former Apple CEO Gil Amelio
+            </h4>
+          </div>
+          <div id="ad">
+            <p>You could go so far as to call it a cult. Apple’s marketing has embraced the powers of
+               scarcity and social proof. And that power goes all the way back to 1984’s commercial.
+               It spoke to an entire generation: throw off your shackles. Break the status quo. Think different.
+            </p>
+            <video controls src="videos/1984.mp4" style="float: right; border-radius: 5px; margin: 10px 5% 20px 0px; width: 45%; height: 400px;">
+            </video>
+          </div>
+
+      </section>
+
+      <section class="journey">
+
+          <h4 id="beginTitle">The beginning</h4>
+          <h4 id="trillion">World’s first $1 trillion company</h4>
+
+          <div id="current">
+            <p>On August 2, 2018, Apple made history by becoming the world’s first $1 trillion company. While it see-sawed in
+               the second half of the year, losing over $450 billion in the last quarter of 2018, it has since recovered most
+               of that amount and now stands at $914.603 billion as, of June 2019. Here's the story of how the company was built
+               and the man central to its founding and growth.
+            </p>
+            <img src="images/trillion.jpg">
+          </div>
+
+          <div id="october">
+            <p>In October 2011, Steve Jobs passed away at the age of 56. He had just left the CEO post at Apple,
+               the company he co-founded, for the second time. Jobs was an entrepreneur through and through, and the story of
+               his rise is the story of Apple as a company, along with some very interesting twists.
+            </p>
+            <img src="images/steveDeparts.jpg">
+          </div>
+
+          <h4 id="garage">From Blue boxes to Apple</h4>
+
+          <div id="flashback">
+            <p>Apple has certainly played a major roll in paving a path to high-end electronics and devices over the past decade
+              that has raised the bar for companies, and has even created a few new industries to boot. However, Apple, like Steve,
+              had humble beginnings.<br>
+              Steve Jobs started Apple with partner Steve Wozniak in 1976. Apple’s first office was Job's
+              garage where they were building the computers that they were selling. From Apple’s humble beginnings spawned the Apple II,
+              the first real PC to hit it big. While the power of computers had once been only available to large businesses who could
+              afford the staggering price-point, it was now available to classrooms, dens, and offices. The Apple II sold for about $1300,
+              compared to similar solutions that were around $8000. In the late 1970’s, that was more than enough for a new car.
+            </p>
+            <img id="garageSteve" src="images/garage.jpg" onmouseover="slideOver(this,steveAndWoz,steveAndWozGarage)" onmouseout="slideBack(this,steveAndWoz,steveAndWozGarage)">
+            <img id="steveAndWoz" src="images/steveAndWoz.jpg">
+            <img id="steveAndWozGarage" src="images/steveAndWozGarage.jpg">
+          </div>
+
+
+          <h4 id="rollerCoster">Leaving Apple</h4>
+
+          <div id="leavingApple">
+            <p>By 1978, Apple was making $2 million in profits solely on the strength of the Apple II. The Apple II wasn't state of
+              the art, but it did allow computer enthusiasts to create and sell their own programs.<br>
+              Apple's board wasn't too fond of such a power imbalance in the company, however. Jobs and the board agreed to add John
+              Sculley to the executive team in 1983. In 1985, the board ousted Jobs in favor of Sculley.<br><br>
+              Steve Jobs was rich and unemployed. Although he wasn't working at Apple, he was far from idle. During this time, from
+              1985 to 1996, Jobs was involved in two big deals; the first of which was an investment. In 1986, Jobs purchased a
+              controlling stake in a company called Pixar from George Lucas. The company was struggling, but their eventual success in
+              digital animation led to an initial public offering (IPO) that earned Jobs around $1 billion.<br><br>
+              The second was a return to his old obsession with computers, founding NeXT to create high-end computers.
+              These were expensive machines with an operating system representing the best attempt yet at making the power of
+              UNIX fit into a graphical user interface.
+            </p>
+          </div>
+
+          <h5 id="midHeading">1996,</h5>
+          <p id="midPara">The critical year in which Steve Jobs sold NeXT, the computer maker he had founded, to Apple, returning him
+             to the company he had started, eleven years after he had been ousted.
+          </p>
+
+          <div id="comeBack">
+            <h4>Hello again! : The comeback.</h4>
+            <p>When Jobs returned, the company wasn't in a good place. Apple had begun to flounder as cheap PCs running Windows
+               flooded the market. Jobs found himself in the driver's seat again and took some drastic steps to turn around Apple's
+               decline. The company asked for and received, a $150 million investment from Bill Gates. Jobs used the money to ramp up
+               advertising and highlight the products Apple already offered while choking off R&D money in non-producing areas.
+            </p>
+          </div>
+
+      </section>
+
+      <section class="revolution">
+        <h4 id="revolutionTitle">The revolution</h4>
+
+        <p id="revolutionIntro">It's impossible to sum up Jobs' career in a single article, but a few lessons stick out. First, innovation
+           counts for a lot, but innovative products fail without proper marketing. Second, there are no straight paths to success.
+           Jobs did get wealthy very early on, but he would be a footnote today if he didn't return to Apple in the 90s. At one point,
+           Jobs was kicked out of the company he helped create for being hard to work with. Rather than change, he bided his time,
+           then took over again, and this time his attitude was seen as part of his genius.
+        </p>
+
+        <div id="iMac">
+          <h4>iMac</h4>
+          <img src="images/steveMacNew.jpg">
+          <p>Twenty years ago today Steve Jobs introduced iMac, an ambitious new Mac aimed specifically at easy Internet access.
+             It not only redefined the design and styling of tech products but charted a strategic course that would take Apple
+             from being a minority PC maker to the world's most valuable tech company.
+          </p>
+        </div>
+        <aside id="foriMac">
+          <p>iMac had an impact because it courageously made bold decisions that conventional thinking
+             assumed to be wrong.
+          </p>
+        </aside>
+
+        <div id="macProSneak">
+          <p id="macProHead">Mac Pro</p><br>
+          <h5 id="macProText">Power to change<br> everything.</h5>
+          <img src="images/macPro.png" style="height:700px; width:850px; margin:0px 0px 50px 15%;">
+          <img src="images/macProDisplay.png" style="height:700px; width:900px; float: right; margin-right: -20%; overflow: hidden;">
+        </div>
+        <aside id="forMacPro">
+          <p>Say hello to a Mac that is extreme in every way. With the greatest performance, expansion, and configurability yet,
+            it is a system created to let a wide range of professionals push the limits of what is possible.
+          </p>
+        </aside>
+
+
+
+
+<!--+++++++++++++++++++++++++++++++ MacBook Air +++++++++++++++++++++++++++++++--->
+
+        <div id="macBookAir">
+          <img src="images/steveMacbookAir.jpg">
+          <h4>MacBook <p>Air</p></h4>
+          <p>The world's thinnest notebook</p>
+        </div>
+
+        <div id="macBookAirIntro">
+            <p>When Steve Jobs introduced the first MacBook Air, the ultra-light laptop came with many compromises in terms
+               of power and ports. It was glorious. And painful.<br>
+               A couple of years later those compromises largely disappeared and it became not only the most flexible MacBook
+               ever, but one of the most popular and least expensive. Oh, and every other vendor in the industry raced to copy it.
+             </p>
+        </div>
+
+        <p id="airContent">"Something is in the air"</p>
+        <div id="airDisclose">
+          <img src="images/airDisclose.jpg">
+          <p>The MacBook Air that Jobs slid with his characteristic flourish out of manila envelope was seemingly designed to
+             be as much an object of lust and technical showpiece as it was a shipping product.<br>
+             The company no longer saw people chained to a desk. It saw work (and play!) being done in the living room, on a
+             beanbag, in a park, or in the sky.
+           </p>
+        </div>
+
+        <aside id="forMacBookAir">
+          <p>Like the now-famous song that came with it, the MacBook Air truly was "a new soul." It was a bold pronouncement of
+            Apple's mobile-first future.
+          </p>
+        </aside>
+<!--+++++++++++++++++++++++++++++++ MacBook Air +++++++++++++++++++++++++++++++--->
+
+
+<!--+++++++++++++++++++++++++++++++++++ iPod ++++++++++++++++++++++++++++++++++--->
+
+        <div id="iPod">
+          <img src="images/steveiPod.jpg">
+          <h4>iPod</h4>
+          <p>The day Steve jobs launched iPod, it changed Apple forever.</p>
+        </div>
+
+        <p id="iPodIntro">
+          "With iPod, Apple has invented a whole new category of digital music player that lets you put your entire music collection
+          in your pocket and listen to it wherever you go," said Steve Jobs as the first iPod launched in 2001. "With iPod, listening
+          to music will never be the same again."
+        </p>
+        <img id="iPodMag" src="images/iPodMag.jpg">
+
+
+      <div id="thousand">
+        <p>A 1000 songs in your pocket</p>
+        <img src="images/iPod.png">
+      </div>
+
+      <p id="thousandIntro">iPod introduction in October 2001 was groundbreaking. “1000 songs in your pocket” – it was absolutely unbelievable, no
+         one did it before. There are only few products that shaped the lifestyle of a generation, found its way into popular culture
+         and became the archetype of an entire product group like this.<br>
+         When the iPod starting supporting Windows PCs, it opened Apple up to a whole new world of people who would never have considered buying
+         anything from Apple. It took Apple from being a computer company for Mac users to a consumer electronics company for the masses. That led
+         to the iPhone and the iPad, both of which are huge cross-platform products.
+      </p>
+
+      <aside id="foriPod">
+        <p>One of the major reasons for the iPod's success is its unique design, which is simple and aesthetically appealing, making use of high-quality
+           materials like stainless steel. The iPod's design is iconic. Design museums around the world display iPods proudly.
+        </p>
+      </aside>
+
+
+        <div id="iPhone" style="float: right;">
+          <h4>iPhone</h4>
+          <img src="">
+          <p></p>
+        </div>
+
+      </section>
+
+    </section>
+
+    <footer>
+
+    </footer>
+
+ </body>
+
+</html>

@@ -1,0 +1,597 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+/*-------Font-faces-------*/
+
+    /*Graphik Bold*/
+    @font-face {font-family: GraphikBold;src : url('../fontFaces/GraphikBold.otf');}
+    /*Graphik Black*/
+    @font-face {font-family: GraphikBlack;src : url('../fontFaces/GraphikBlack.otf');}
+    /*Segoe UI Light*/
+    @font-face {font-family: SegoeUILight;src : url('../fontFaces/SegoeUIL.ttf');}
+    /*Affectionately Yours*/
+    @font-face {font-family: AffectionatelyYours;src : url('../fontFaces/AffectionatelyYours.ttf');}
+    /*Myraid Pro Light*/
+    @font-face {font-family: MyraidProLight;src : url('../fontFaces/MyriadProLight.otf');}
+    /*AntiPasto Pro*/
+    @font-face {font-family: Antipasto;src : url('../fontFaces/Antipasto.ttf');}
+
+
+header{
+  width: 100%;
+  height: 60px;
+  background-color: black;
+}
+
+header h6{
+  color: #fff;
+  font-size: 20px;
+  margin: 0px;
+  padding: 20px 0px 0px 20px;
+  font-family: GraphikBold;
+}
+
+
+#quoteBack{
+  width: 100%;
+  height: 200px;
+  padding: 20px 0px 10px 0px;
+  background-color: #E9F2F6;
+}
+
+#quoteBack h4{
+  font-size: 30px;
+  width: 88%;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  margin-left: 5%;
+  font-family: AffectionatelyYours;
+}
+
+#ad{
+    height: 475px;
+    margin-bottom: 100px;
+}
+
+#ad p{
+  font-family: SegoeUILight;
+  font-size: 21px;
+  text-align: center;
+  width: 45%;
+  float: left;
+  margin: 100px 20px 0px 20px;
+}
+
+.journey{
+  margin: 0px 50px 100px 100px;
+  display: block;
+}
+
+.journey #beginTitle{
+  font-family: Hiragino Sans;
+  font-weight: lighter;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+#trillion{
+  font-family: GraphikBold;
+  font-weight: lighter;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+#current p{
+  font-family: SegoeUILight;
+  font-weight: lighter;
+  font-size: 21px;
+  float: left;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 50%;
+  position: relative;
+  box-shadow: 6px 2px 16px 2px rgba(164,164,164,0.75);
+  margin-bottom: 50px;
+}
+
+
+#current img{
+  width: 60%;
+  height: 450px;
+  float: right;
+  border-radius: 5px;
+  margin: -250px 0px 100px 50%;
+}
+
+#october p{
+  font-family: SegoeUILight;
+  font-weight: lighter;
+  font-size: 21px;
+  float: right;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 300px 0px 0px 30%;
+  box-shadow: 6px 2px 16px 2px rgba(164,164,164,0.75);
+  position: relative;
+}
+
+#october img{
+  width: 60%;
+  height: 500px;
+  float: left;
+  border-radius: 5px;
+  margin: -400px 50% 150px 0px;
+}
+
+
+#garage{
+  font-family: GraphikBold;
+  font-weight: lighter;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+
+#flashback p{
+  font-family: SegoeUILight;
+  font-weight: lighter;
+  font-size: 21px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 50px 0px 20px 2%;
+  position: relative;
+}
+
+#flashback{
+  margin-bottom: 550px;
+}
+
+#garageSteve {
+  width: 50%;
+  height: 400px;
+  float: left;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 5px 4px 32px -7px #454345;
+  margin-left: 2%;
+}
+
+#steveAndWoz {
+  width: 50%;
+  height: 370px;
+  float: left;
+  border-radius: 5px;
+  margin-left: 6%;
+  box-shadow: 5px 4px 32px -7px #454345;
+  margin-top: -380px;
+}
+
+#steveAndWozGarage {
+  width: 50%;
+  height: 385px;
+  float: left;
+  border-radius: 5px;
+  margin-left: 5%;
+  box-shadow: 5px 4px 32px -7px #454345;
+  margin-top: -390px;
+}
+
+#rollerCoster {
+  font-family: GraphikBold;
+  font-weight: lighter;
+  font-size: 40px;
+  color: #fff;
+  border-radius: 10px;
+  margin: 0px 0px -70px 10px;
+}
+
+#leavingApple{
+  background: url("../images/leavingApple.jpg");
+  width: 100%;
+  border-radius: 5px;
+  height: 600px;
+}
+
+#leavingApple p{
+  font-family: SegoeUILight;
+  font-weight: lighter;
+  font-size: 21px;
+  background-color: #fff;
+  padding: 15px;
+  width: 90%;
+  margin-left: 4%;
+  border-radius: 10px;
+  top: 450px;
+  box-shadow: 6px 2px 16px 2px rgba(164,164,164,0.75);
+  position: relative;
+  margin-bottom: 100px;
+}
+
+#midHeading{
+  font-family: MyraidProLight;
+  font-size: 45px;
+  margin: 350px 0px 0px 10%;
+  color: #96D1EC;
+}
+
+#midPara{
+  font-family: SegoeUILight;
+  font-size: 21px;
+  width: 60%;
+  margin: 0px 0px 100px 10%;
+}
+
+#comeBack h4{
+  font-family: GraphikBold;
+  font-weight: lighter;
+  font-size: 40px;
+  color: #41B6ED;
+  border-radius: 10px;
+  float: right;
+  margin: 10px 10px -70px 0px;
+}
+
+#comeBack{
+  background: url("../images/comeBack.jpg");
+  background-size: cover;
+  width: 100%;
+  border-radius: 5px;
+  height: 650px;
+}
+
+#comeBack p{
+  font-family: SegoeUILight;
+  font-size: 21px;
+  background-color: #fff;
+  padding: 15px;
+  width: 90%;
+  margin-left: 4%;
+  border-radius: 10px;
+  top: 550px;
+  position: relative;
+  box-shadow: 6px 2px 16px 2px rgba(164,164,164,0.75);
+  margin-bottom: 100px;
+}
+
+
+.revolution{
+  margin: 150px 50px 100px 100px;
+  display: block;
+}
+
+.revolution #revolutionTitle{
+  font-family: Hiragino Sans;
+  font-weight: lighter;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+#revolutionIntro{
+  font-family: SegoeUILight;
+  font-size: 21px;
+  padding: 15px;
+  width: 90%;
+  margin: 0px 0px 100px 4%;
+}
+
+
+#iMac img{
+  height: 600px;
+  width: 35%;
+  border-radius: 5px;
+  float: left;
+  box-shadow: 6px 2px 16px 2px rgba(164,164,164,0.75);
+  margin-left: 5%;
+}
+
+
+#iMac h4{
+  font-family: SF Pro Display;
+  font-size: 40px;
+  margin: 0px 0px -50px 80px;
+  color: #fff;
+}
+
+#iMac p{
+  font-family: SegoeUILight;
+  font-size: 21px;
+  font-weight: lighter;
+  width: 35%;
+  background-color: #fff;
+  border-radius: 0px 10px 10px 0px;
+  float: right;
+  box-shadow: 6px 2px 16px 2px rgba(164,164,164,0.75);
+  margin: 100px 22.53% 0px 0px;
+  font-family: SegoeUILight;
+  font-size: 21px;
+  background-color: #fff;
+  padding: 15px;
+  height: auto;
+}
+
+
+#foriMac{
+  float: right;
+  width: 20%;
+  margin: 50px 10% 50px 0px;
+}
+
+#foriMac > p {
+  font-family: GraphikBold;
+  font-size: 21px;
+  font-style: italic;
+  color: #27779C;
+}
+
+#macProSneak{
+    width: 100%;
+    background-color: #E7E8E9;
+    float: left;
+    height: 950px;
+    margin-left: -20px;
+    border-radius: 5px;
+    margin-top: 150px;
+}
+
+#macProHead{
+  font-size: 45px;
+  font-family: Arial;
+  font-weight: lighter;
+  text-align: center;
+  float: right;
+  margin: 50px 47% 10px 0px;
+}
+
+#macProText{
+  font-size: 40px;
+  float: right;
+  margin: 0px 40% 30px 0px;
+  font-family: GraphikBold;
+  text-align: center;
+}
+
+#forMacPro{
+  float: left;
+  width: 40%;
+  margin: 150px 0px 100px 10%;
+}
+
+#forMacPro > p {
+  font-family: GraphikBold;
+  font-size: 30px;
+  color: #7A7C7C;
+}
+
+
+
+#macBookAir{
+  width: 95%;
+  margin: 300px 0px 100px 0%;
+  background-color: black;
+  height: 1600px;
+  float: left;
+  border-radius: 5px;
+}
+
+#macBookAir h4{
+  font-size: 45px;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: -720px;
+  font-family: MyraidProLight;
+  color: #fff;
+  text-align: center;
+}
+
+#macBookAir h4 > p{
+  font-size: 45px;
+  width: 50%;
+  display: inline;
+  font-family: SF Pro Display;
+  font-weight: lighter;
+  color: #fff;
+  text-align: center;
+}
+
+
+#macBookAir p{
+  font-size: 40px;
+  font-family: SF Pro Display;
+  font-weight: lighter;
+  color: #fff;
+  margin-top: 200px;
+  text-align: center;
+}
+
+#macBookAir img{
+  height: 750px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+#macBookAirIntro{
+  width: 100%;
+  height: auto;
+  margin-bottom: 2500px;
+}
+
+
+
+#macBookAirIntro p{
+  font-size: 21px;
+  font-family: SegoeUILight;
+  background-color: #fff;
+  position: relative;
+  width: 50%;
+  border-radius: 0px 10px 10px 0px;
+  float: left;
+  color: black;
+  margin: -1100px 50px 0px 0px;
+  font-weight: lighter;
+  text-align: left;
+  padding: 15px;
+}
+
+
+#airContent {
+  font-size: 40px;
+  font-family: SF Pro Display;
+  font-weight: lighter;
+  display: block;
+  float: right;
+  color: #fff;
+  margin: -700px 39% 0px 0px;
+  position: relative;
+  text-align: center;
+}
+
+
+#airDisclose img{
+  height: 500px;
+  width: 55%;
+  border-radius: 5px;
+  float: left;
+  margin-top: -600px;
+}
+
+#airDisclose p{
+  font-size: 21px;
+  font-family: SegoeUILight;
+  position: relative;
+  width: 35%;
+  border-radius: 0px 10px 10px 0px;
+  float: right;
+  color: #fff;
+  margin: -550px 70px 0px 0px;
+  font-weight: lighter;
+  text-align: left;
+  padding: 15px;
+}
+
+#forMacBookAir{
+  float: right;
+  width: 35%;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: -50px 0% 200px 0px;
+}
+
+#forMacBookAir > p {
+  font-family: GraphikBold;
+  font-size: 21px;
+  color: #D5B477;
+}
+
+
+#iPod{
+  width: 95%;
+  height: auto;
+  border-radius: 5px;
+}
+
+#iPod h4{
+  font-size: 45px;
+  margin: -500px 0px 500px -90%;
+  position: relative;
+  font-family: SF Pro Display;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+#iPod p{
+  font-size: 40px;
+  font-family: SF Pro Display;
+  font-weight: lighter;
+  color: #6F6F6F;
+  margin-top: 200px;
+  text-align: center;
+}
+
+#iPod img{
+  height: 500px;
+  border-radius: 5px;
+  width: 70%;
+}
+
+#iPodIntro{
+  font-size: 23px;
+  font-family: SF Pro Display;
+  width: 50%;
+  border-radius: 0px 10px 10px 0px;
+  float: left;
+  color: #787878;
+  margin: 0px 0px 0px 150px;
+  font-weight: lighter;
+  text-align: left;
+}
+
+#iPodMag{
+  height: 550px;
+  width : 35%;
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 100px;
+}
+
+#thousand p{
+  font-size: 30px;
+  font-family: SF Pro Display;
+  width: 50%;
+  border-radius: 0px 10px 10px 0px;
+  float: left;
+  margin: 100px 0px 0px 150px;
+  font-weight: lighter;
+  text-align: left;
+}
+
+#thousand img{
+  height: 500px;
+  width: 433px;
+  float: left;
+  margin: 50px 0px 0px 9%;
+
+}
+
+#thousandIntro {
+  font-size: 23px;
+  font-family: SegoeUILight;
+  width: 50%;
+  border-radius: 10px;
+  float: left;
+  margin: 50px 0px 0px 150px;
+  font-weight: lighter;
+  text-align: left;
+}
+
+#foriPod{
+  float: right;
+  width: 33%;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 50px 0% 200px 0px;
+}
+
+#foriPod > p {
+  font-family: GraphikBold;
+  font-style: italic;
+  font-size: 21px;
+  color: #E26D4B;
+}
+
+footer{
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  margin-top: 50px;
+  display: block;
+}
